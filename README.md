@@ -1,25 +1,34 @@
+
 # echoer
 
-[![Package Version](https://img.shields.io/hexpm/v/echoer)](https://hex.pm/packages/echoer)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/echoer/)
+![echoer](https://socialify.git.ci/krios2146/echoer/image?description=1&language=1&name=1&owner=1&pattern=Solid&theme=Dark)
 
-```sh
-gleam add echoer
-```
-```gleam
-import echoer
+## Run Locally
 
-pub fn main() {
-  // TODO: An example of the project in use
-}
+Clone the project
+
+```bash
+  git clone git@github.com:krios2146/echoer.git
 ```
 
-Further documentation can be found at <https://hexdocs.pm/echoer>.
+Go to the project directory
 
-## Development
-
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-gleam shell # Run an Erlang shell
+```bash
+  cd echoer
 ```
+
+Follow the instructions on the [Gleam website](https://gleam.run/getting-started/installing/) to install it
+
+Installation of the Gleam can be quite tricky so there is a compiled escript file in the repo - `echoer`. To run this file you just need to install Erlang, no Gleam needed. After Erlang installation you can run
+
+```bash
+  ./echoer get PATH
+```
+
+If you install Gleam you can run 
+
+```bash
+  gleam run get PATH
+```
+
+That should display your PATH environment variable
